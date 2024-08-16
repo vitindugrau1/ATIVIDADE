@@ -11,7 +11,7 @@
     <form action="https://formspree.io/f/xgvwyvap" method="post">
         <p>Digite suas informações de contato:</p>
         Insira seu nome: <input type="text" name="nome" placeholder="Nome completo" required> <br>
-     Insira seu número: <input type="number" name="Telefone" placeholder=" (XX) XXXXX-XXXX" > <br>
+     Insira seu número: <input type="number" name="Telefone" placeholder=" (XX) XXXXX-XXXX" required > <br>
         Insira seu email:  <input type="email" name="email" value="@gmail.com"> <br>
         <p>Você trabalha?</p>
         <input type="radio" name="Trabalho" value="Sim" checked> Sim 
@@ -23,7 +23,7 @@
     <option value="4">Colombo</option></select> <br>
     <input type="checkbox" name="Novidades" checked> Aceita receber novidades em seu email? <br>
     <p><h2>Comente sobre sua experiência no formulario</h2></p>
-    <textarea name="Comentários" id=""></textarea> <br>
+    <textarea name="Comentários" id="" required></textarea> <br>
     <button type="submit">Enviar</button>
     <button type="reset">Apagar</button>
 
